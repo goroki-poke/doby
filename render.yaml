@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: jsonld-api
+    runtime: node
+    region: oregon
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 3001
+      - key: NODE_ENV
+        value: production
