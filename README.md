@@ -69,18 +69,7 @@ railway init
 railway up
 ```
 
-### Deploy to RapidAPI
 
-1. Deploy the API to any cloud provider (Render, Railway, Fly.io, etc.)
-2. Go to [RapidAPI Hub](https://rapidapi.com/hub)
-3. Click **"Add New API"**
-4. Enter your deployed API base URL
-5. Define the `POST /api/json-ld` endpoint:
-   - **Request body:** `application/json` with `{ "type": "...", "data": {...} }`
-   - **Response:** `application/json`
-6. Publish to Hub
-
----
 
 ## Local Development
 
