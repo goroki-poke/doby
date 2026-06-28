@@ -50,25 +50,6 @@ Health check and API information.
 
 ---
 
-## Deployment
-
-### Deploy to Render
-
-1. Push this repo to GitHub
-2. Create a new **Web Service** on Render
-3. Connect your repository
-4. Render auto-detects `render.yaml` — or manually set:
-   - **Build Command:** `npm install && npm run build`
-   - **Start Command:** `npm start`
-
-### Deploy to Railway
-
-```bash
-railway login
-railway init
-railway up
-```
-
 
 
 ## Local Development
